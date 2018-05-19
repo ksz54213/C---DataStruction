@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 	}
 	else if (pid == 0) { 
 
-		execlp("./child","./child",argv[1],NULL);
+		execlp("./05050121-child","./05050121-child",argv[1],NULL);
 	}
 	else { 
 		fprintf(stderr,"Child Process ID returned by fork= %d\n", pid);
