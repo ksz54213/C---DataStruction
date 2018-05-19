@@ -64,7 +64,7 @@ int main(int argc, char *argv[])
 			exit(-1);
 		}
 
-
+		shm_unlink(name);
 	}
 
 	return 0;
