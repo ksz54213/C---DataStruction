@@ -59,9 +59,7 @@ int main(int argc, char *argv[])
 			num[end++]=n;
 		}
 	}
-	/*for(int i=0;i<end;i++)
-		printf("%d,",num[i]);
-*/
+	
 	message3 = num;
 
 	
@@ -71,10 +69,7 @@ int main(int argc, char *argv[])
 		ptr += sizeof(*(message3));
 	}
 	
-	/*sprintf(ptr,"%s",message1);
-	ptr += strlen(message1);
-	sprintf(ptr,"%s",message2);
-	ptr += strlen(message2);*/
+	
 
 	return 0;
 	
