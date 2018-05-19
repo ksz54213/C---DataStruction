@@ -53,7 +53,7 @@ int main(int argc, char *argv[])
 			if(*(char*)ptr==0)
 				break;
 			else{
-					printf("%s ",(char *)ptr );
+				printf("%s ",(char *)ptr );
 				ptr+=4;
 			}
 		}
